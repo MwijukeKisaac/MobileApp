@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserGuide"
+    tools:ignore="SpeakableTextPresentCheck">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <ImageView
+            android:id="@+id/imagpp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:src="@drawable/pp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            />
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#078F83" />
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="User Guide - Agro Input and Product Verification"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="#1E034E"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BCD4"
+            android:text="Agro input verification is the process of ensuring that the agricultural inputs such as seeds, fertilizers, and pesticides used in farming are of good quality and meet the required standards. It involves checking the authenticity, quality, and effectiveness of the agro inputs before using them in agricultural practices. Agro input verification helps farmers make informed decisions about the inputs they use, ensuring better crop yields and minimizing negative impacts on the environment."
+            android:textColor="#263238"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/d" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/e" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:background="#00BCD4"
+            android:text="Product verification is the process of ensuring that the agricultural products, such as fruits, vegetables, and processed food items, meet the required quality standards and are safe for consumption. It involves checking the authenticity, quality, and safety of the products before they are sold to consumers. Product verification helps consumers make informed choices about the food they purchase, ensuring they are getting safe and high-quality products." />
+
+    </LinearLayout>
+</ScrollView>
